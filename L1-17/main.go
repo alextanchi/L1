@@ -16,7 +16,7 @@ func binarySearch(array []int, value int) int {
 
 	for low < high {
 		mid := (low + high) / 2 //ищем "средний" элемент в массиве
-		fmt.Println(mid)
+
 		guess := array[mid]
 		if guess == value {
 			return mid
